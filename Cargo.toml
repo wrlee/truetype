@@ -1,0 +1,23 @@
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[package]
+publish = false
+name = "truetype"
+version = "0.1.0"
+authors = ["Bill Lee <github+truetype@cachecrew.com>"]
+edition = "2021"
+description = "Display font file metadata"
+# documentation =
+readme = "README.md"
+# homepage =
+# repository =
+# license[-file] =
+# keywords = []
+# categories = []
+
+[build-dependencies]
+
+[dev-dependencies]
+
+[dependencies]
+fonttools = "0.1.*"
+otspec = "0.1.*"
